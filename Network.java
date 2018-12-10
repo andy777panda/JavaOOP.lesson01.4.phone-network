@@ -62,8 +62,8 @@ public class Network {
 
 	/* розширення масиву для номерів */
 	private void resize() {
-		String[] temp = new String[this.numbers.length + 1];
-		System.arraycopy(numbers, 0, temp, 0, this.numbers.length);
+		String[] temp = new String[numbers.length + 1];
+		System.arraycopy(numbers, 0, temp, 0, numbers.length);
 		numbers = temp;
 	}
 
